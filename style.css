@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(31, 168, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: black;
+    height: 748px;
+    width: 748px;
+    display: grid;
+    grid-template-rows: 414px 325px;
+    gap: 9px;
+}
+
+/* **********BOX1************* */
+.box1{
+    display: grid;
+    grid-template-columns: 320px 419px;
+    gap: 9px;
+}
+.box1>.a{
+    background-color: #E72F24;
+}
+.box1>.b{
+    background-color: #F0F1EC;
+}
+
+/* **********BOX2************* */
+.box2{
+    display: grid;
+    grid-template-columns: 320px 360px 50px;
+    gap: 9px;
+}
+/* **********BOX2 - A************* */
+.box2>.a{
+   display: grid;
+   grid-template-rows: 296px 20px;
+   gap: 9px;
+}
+.box2 .a .one{
+    background-color: #F0F1EC;
+}
+.box2 .a .two{
+    background-color: #F0F1EC;
+}
+
+/* **********BOX2 - B************* */
+.box2>.b{
+    display: grid;
+    grid-template-rows: 296px 20px;
+    gap: 9px;
+}
+.box2>.b>.one{
+    background-color: #F0F1EC;
+}
+.box2>.b>.two{
+    display: grid;
+    grid-template-columns: 198px 153px;
+    gap: 9px;
+}
+.yellow{
+    background-color: #F9D01E;
+}
+.black{
+    background-color: #232629;
+}
+
+/* **********BOX2 - C************* */
+.box2>.c{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 130px auto;
+}
+
+.blue{
+    background-color: #004592;
+}
+.white{
+    background-color: #F0F1EC;
+}
